@@ -142,8 +142,8 @@ const Addevents=() =>{
 </Field>
 
 <Field kind="addons" align="right">
-<Control>
-<Button color="info" onClick={close}>Save</Button>
+<Control data-testid="save-holder">
+<Button data-testid="save-button" color="info" onClick={close}>Save</Button>
 </Control>
 </Field>
 
